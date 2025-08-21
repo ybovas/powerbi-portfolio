@@ -8,7 +8,7 @@ This project demonstrates **Power Query transformation,data modeling, DAX calcul
 📂 Data Source  
 This project uses the **Global Superstore dataset**, available publicly on **Kaggle**:  
 
-🔗 [Global Superstore 2016 Dataset on Kaggle](https://www.kaggle.com/datasets/tahir1413/global-superstore-2016)  
+🔗 <(https://www.kaggle.com/datasets/tahir1413/global-superstore-2016)  
 
 The dataset contains information on:  
 - Orders (Order ID, Order Date, Ship Date, Customer, Region, Market)  
@@ -50,12 +50,10 @@ The dataset contains information on:
 - Protects sensitive sales and order data, enabling secure role-based reporting.  
 ---
 
-
-
 🧮 DAX Calculations
 
 📅 Calendar Table  
-```DAX
+#DAX
 Calendar =
 ADDCOLUMNS(
     CALENDAR(MIN(Orders[Order Date]), MAX(Orders[Order Date])),
