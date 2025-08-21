@@ -67,32 +67,24 @@ ADDCOLUMNS(
 -- Calculated Columns & Measures --
 
 Shipping Days = DATEDIFF(Orders[Order Date], Orders[Ship Date], DAY)
-
 Avg Delivery Days = AVERAGE(Orders[Shipping Days])
-
 Total Returns = COUNT(Returns[Order ID])
-
 Return Rate = DIVIDE([Total Returns], COUNT(Orders[Order ID]), 0)
-
 Total Sale = SUM(Orders[Sales])
-
 Total Profit = SUM(Orders[Profit])
-
 Total Shipped =
 CALCULATE(
     COUNT(Orders[Ship Date]),
     USERELATIONSHIP(Orders[Ship Date], 'Calendar'[Date])
 )
-
 Total Order = COUNT(Orders[Order Date])    
 Shipped Variance% = DIVIDE([Total Order]-[Total Shipped],[Total Order],0)
 Total Quantity = SUM(Orders[Quantity])
 Total Discount = SUM(Orders[Discount])
 Total Shipping Cost = SUM(Orders[Shipping Cost])
+    
 </pre>
-
 ---
-
 📊 Key Insights  
 
 - Consumer segment contributes the highest revenue (6.5M).  
@@ -101,7 +93,6 @@ Total Shipping Cost = SUM(Orders[Shipping Cost])
 - Certain furniture & tech products incur losses.  
 - Return rate is low (2.1%), reflecting strong product quality.  
 - Shipments closely match orders (<1% variance).  
-
 
 🛠️ Tools & Technologies
 
