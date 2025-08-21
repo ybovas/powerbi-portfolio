@@ -15,7 +15,9 @@ The dataset contains information on:
 - Products (Category, Sub-Category, Product Name)  
 - Sales metrics (Sales, Profit, Quantity, Discount, Shipping Cost)  
 - Shipping performance (Ship Mode, Delivery Days)
-- Returns  
+- Returns
+   <img width="512" height="512" alt="delivery-van" src="https://github.com/user-attachments/assets/1ec774d7-1c4a-4602-8d48-2053eb2a5087" />
+
 
 ---
 
