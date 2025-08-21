@@ -109,9 +109,4 @@ Power Query – Data cleaning & transformation
 DAX – KPI calculations & business logic
 RLS – Secure, role-based reporting.
 
-### 6.	Screenshots / Demos
-Show what the dashboard looks like. - ![Alt text](Snapshot of Dashboard Summary.png)
-Example: ![Dashboard Preview](https://github.com/ybovas/powerbi-portfolio/blob/e5ffe465a3a09809f95663ac57627fb2560df2de/Snapshot%20of%20Dashboard%20Summary.png)
-
-
-<img width="512" height="512" alt="delivery-van" src="https://github.com/user-attachments/assets/05c60ff2-7297-4368-aa7a-1d2a1486d8d5" />
+<img width="1008" height="475" alt="Snapshot of Dashboard Summary" src="https://github.com/user-attachments/assets/7ee4db10-ddd4-4548-a271-0f580a09eca9" />
