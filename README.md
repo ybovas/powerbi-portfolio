@@ -54,15 +54,15 @@ The dataset contains information on:
 
 📅 Calendar Table  
 **DAX**
-Calendar =
-ADDCOLUMNS(
-CALENDAR(MIN(Orders[Order Date]), MAX(Orders[Order Date])),
-"Year", YEAR([Date]),
-"Month", MONTH([Date]),
-"YearMonth", FORMAT([Date], "YYYY-MMM"),
-"MonthSort", FORMAT([Date], "MMM"),
-"Day", DAY([Date])
-)
+-Calendar =
+-ADDCOLUMNS(
+-CALENDAR(MIN(Orders[Order Date]), MAX(Orders[Order Date])),
+-"Year", YEAR([Date]),
+-"Month", MONTH([Date]),
+-"YearMonth", FORMAT([Date], "YYYY-MMM"),
+-"MonthSort", FORMAT([Date], "MMM"),
+-"Day", DAY([Date])
+-)
 
 📊 Calculated Columns & Measures
 **Delivery Performance**
@@ -78,15 +78,14 @@ Total Sale = SUM(Orders[Sales])
 Total Profit = SUM(Orders[Profit])
 
 **Shipment Analysis**
-Total Shipped =
-CALCULATE(
-COUNT(Orders[Ship Date]),
-USERELATIONSHIP(Orders[Ship Date], 'Calendar'[Date])
-)
+-Total Shipped =
+-CALCULATE(
+-COUNT(Orders[Ship Date]),
+-USERELATIONSHIP(Orders[Ship Date], 'Calendar'[Date])
+-)
 
 Total Order = COUNT(Orders[Order Date])
-Shipped Variance % =
-DIVIDE([Total Order] - [Total Shipped], [Total Order], 0)
+Shipped Variance % = DIVIDE([Total Order] - [Total Shipped], [Total Order], 0)
 
 **Quantity, Discount & Shipping Cost**
 Total Quantity = SUM(Orders[Quantity])
@@ -95,12 +94,12 @@ Total Shipping Cost = SUM(Orders[Shipping Cost])
 
 📊 Key Insights
 
-Consumer segment contributes the highest revenue (6.5M).
-Europe & USCA are top-performing markets.
-Canon Printers & Cisco Smartphones drive the most profit.
-Certain furniture & tech products incur losses.
-Return rate is low (2.1%), reflecting strong product quality.
-Shipments closely match orders (<1% variance)
+-Consumer segment contributes the highest revenue (6.5M).
+-Europe & USCA are top-performing markets.
+-Canon Printers & Cisco Smartphones drive the most profit.
+-Certain furniture & tech products incur losses.
+-Return rate is low (2.1%), reflecting strong product quality.
+-Shipments closely match orders (<1% variance)
 
 🛠️ Tools & Technologies
 
