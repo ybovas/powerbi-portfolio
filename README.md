@@ -106,3 +106,8 @@ Total Shipping Cost = SUM(Orders[Shipping Cost])
   
 <img width="1019" height="486" alt="image" src="https://github.com/user-attachments/assets/0fd68432-5ce1-45c6-a1c8-608b5bf84f37" />
 
+<img width="1012" height="485" alt="Snapshot of Sales   Performance Dashboard" src="https://github.com/user-attachments/assets/58a314f3-bad5-4a6c-85d5-5c8f08f7671b" />
+
+<img width="1016" height="486" alt="Snapshot of Detail View" src="https://github.com/user-attachments/assets/cc4827b0-0a0a-46ab-ab52-db8426dc89e4" />
+
+<img width="1055" height="611" alt="Snapshot of RLS" src="https://github.com/user-attachments/assets/5b35a7aa-722d-4d4c-bd3a-cfc160385c06" />
