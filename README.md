@@ -111,5 +111,5 @@ RLS – Secure, role-based reporting.
 
 ### 6.	Screenshots / Demos
 Show what the dashboard looks like. - ![Alt text](https://github.com/username/repo/assets/image.png)
-Example: ![Dashboard Preview](https://github.com/the-mansi-goel/Ski-dashboard/blob/main/Snapshot%20of%20the%20Dahbaord.png)
+Example: ![Dashboard Preview](https://github.com/ybovas/powerbi-portfolio/blob/e5ffe465a3a09809f95663ac57627fb2560df2de/Snapshot%20of%20Dashboard%20Summary.png)
 
