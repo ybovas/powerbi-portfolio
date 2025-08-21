@@ -119,4 +119,6 @@ RLS – Secure, role-based reporting.
 
 
 
+<img width="1008" height="475" alt="Snapshot of Dashboard Summary" src="https://github.com/user-attachments/assets/feb98bcb-26ef-43d5-b09d-5ccf91a6463b" />
+
 
