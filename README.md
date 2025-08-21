@@ -41,7 +41,6 @@ The dataset contains information on:
 4. **Matrix Visual (Orders & Shipments by Year/Month)** – Compare order and shipment trends in tabular format.  
 5. **Clustered Column & Line Chart (Top 5 Customers)** – Top 5 customers by profit with sales overlay.  
 6. **Clustered Bar Chart (Top 5 Profit & Top 5 Loss Products)** – Compare best and worst performing products.  
-7. **Pie Chart (Sales by Ship Mode)** – Contribution of shipping methods (Standard, Express, etc.).  
 
 ---
 
