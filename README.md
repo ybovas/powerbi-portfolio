@@ -112,6 +112,7 @@ DAX – KPI calculations & business logic
 RLS – Secure, role-based reporting.
 
 
+https://github.com/ybovas/powerbi-portfolio/blob/main/Snapshot%20of%20Dashboard%20Summary.png
 
 
 
