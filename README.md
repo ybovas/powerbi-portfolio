@@ -53,16 +53,22 @@ The dataset contains information on:
 🧮 DAX Calculations
 
 📅 Calendar Table  
-**DAX**
--Calendar =
--ADDCOLUMNS(
--CALENDAR(MIN(Orders[Order Date]), MAX(Orders[Order Date])),
--"Year", YEAR([Date]),
--"Month", MONTH([Date]),
--"YearMonth", FORMAT([Date], "YYYY-MMM"),
--"MonthSort", FORMAT([Date], "MMM"),
--"Day", DAY([Date])
--)
+
+---
+
+### ✅ How it will look on GitHub:
+
+```DAX
+Calendar =
+ADDCOLUMNS(
+    CALENDAR(MIN(Orders[Order Date]), MAX(Orders[Order Date])),
+    "Year", YEAR([Date]),
+    "Month", MONTH([Date]),
+    "YearMonth", FORMAT([Date], "YYYY-MMM"),
+    "MonthSort", FORMAT([Date], "MMM"),
+    "Day", DAY([Date])
+)
+
 
 📊 Calculated Columns & Measures
 **Delivery Performance**
