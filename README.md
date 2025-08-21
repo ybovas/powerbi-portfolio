@@ -118,11 +118,9 @@ Global Overview
 ### Sales & Performance  
 ![Sales Performance](images/sales_performance.png)
 
-![Alt Text][https://github.com/ybovas/powerbi-portfolio/blob/main/Snapshot%20of%20Dashboard%20Summary.png]
 
-[https://github.com/ybovas/powerbi-portfolio/blob/main/Snapshot%20of%20Dashboard%20Summary.png]
-
-![Alt Text](images/global_dashboard.png)
+![Alt Text](Snapshot of Dashboard Summary.png)
+![Global Dashboard][https://github.com/ybovas/powerbi-portfolio/blob/main/Snapshot%20of%20Dashboard%20Summary.png]
 
 
 
