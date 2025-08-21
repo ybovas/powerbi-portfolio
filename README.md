@@ -16,9 +16,6 @@ The dataset contains information on:
 - Sales metrics (Sales, Profit, Quantity, Discount, Shipping Cost)  
 - Shipping performance (Ship Mode, Delivery Days)
 - Returns
-   <img width="512" height="512" alt="delivery-van" src="https://github.com/user-attachments/assets/1ec774d7-1c4a-4602-8d48-2053eb2a5087" />
-
-
 ---
 
 📌 Requirements
@@ -96,7 +93,6 @@ Total Quantity = SUM(Orders[Quantity])
 Total Discount = SUM(Orders[Discount])
 Total Shipping Cost = SUM(Orders[Shipping Cost])
 
-
 📊 Key Insights
 
 Consumer segment contributes the highest revenue (6.5M).
@@ -113,14 +109,7 @@ Power Query – Data cleaning & transformation
 DAX – KPI calculations & business logic
 RLS – Secure, role-based reporting.
 
-📷 Dashboard Preview
-
-![image alt](<img width="1055" height="611" alt="image" src="https://github.com/user-attachments/assets/1328da03-f365-4d42-b6ca-d2015f456222" />
-)
-
-
-
-
-<img width="1008" height="475" alt="Snapshot of Dashboard Summary" src="https://github.com/user-attachments/assets/feb98bcb-26ef-43d5-b09d-5ccf91a6463b" />
-
+### 6.	Screenshots / Demos
+Show what the dashboard looks like. - ![Alt text](https://github.com/username/repo/assets/image.png)
+Example: ![Dashboard Preview](https://github.com/the-mansi-goel/Ski-dashboard/blob/main/Snapshot%20of%20the%20Dahbaord.png)
 
