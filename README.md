@@ -113,7 +113,8 @@ RLS – Secure, role-based reporting.
 
 📷 Dashboard Preview
 
-![image alt](https://github.com/ybovas/powerbi-portfolio/blob/main/Snapshot%20of%20Dashboard%20Summary.png)
+![image alt](<img width="1055" height="611" alt="image" src="https://github.com/user-attachments/assets/1328da03-f365-4d42-b6ca-d2015f456222" />
+)
 
 
 
