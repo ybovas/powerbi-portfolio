@@ -84,27 +84,24 @@ CALCULATE(
     USERELATIONSHIP(Orders[Ship Date], 'Calendar'[Date])
 )
 
-Total Order = COUNT(Orders[Order Date])
-
+Total Order = COUNT(Orders[Order Date])    
 Shipped Variance% = DIVIDE([Total Order]-[Total Shipped],[Total Order],0)
-
 Total Quantity = SUM(Orders[Quantity])
-
 Total Discount = SUM(Orders[Discount])
-
 Total Shipping Cost = SUM(Orders[Shipping Cost])
 </pre>
 
 ---
 
-📊 Key Insights
+📊 Key Insights  
 
--Consumer segment contributes the highest revenue (6.5M).
--Europe & USCA are top-performing markets.
--Canon Printers & Cisco Smartphones drive the most profit.
--Certain furniture & tech products incur losses.
--Return rate is low (2.1%), reflecting strong product quality.
--Shipments closely match orders (<1% variance)
+- Consumer segment contributes the highest revenue (6.5M).  
+- Europe & USCA are top-performing markets.  
+- Canon Printers & Cisco Smartphones drive the most profit.  
+- Certain furniture & tech products incur losses.  
+- Return rate is low (2.1%), reflecting strong product quality.  
+- Shipments closely match orders (<1% variance).  
+
 
 🛠️ Tools & Technologies
 
@@ -113,6 +110,6 @@ Total Shipping Cost = SUM(Orders[Shipping Cost])
 **DAX** – KPI calculations & business logic
 **RLS** – Secure, role-based reporting.
 
-##Dashboard
+## Dashboard ##
 <img width="1019" height="486" alt="image" src="https://github.com/user-attachments/assets/0fd68432-5ce1-45c6-a1c8-608b5bf84f37" />
 
