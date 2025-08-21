@@ -102,5 +102,8 @@ Total Shipping Cost = SUM(Orders[Shipping Cost])
 **RLS** – Secure, role-based reporting.
 
 ## Dashboard ##
+- <a href="https://github.com/ritikbh193/Data-Analysis-Dashboard/blob/main/Vrinda%20Data%20Analysis2.xlsx">Dataset</a>
+- <a href="https://github.com/user-attachments/assets/0fd68432-5ce1-45c6-a1c8-608b5bf84f37">Dataset /a>
+  
 <img width="1019" height="486" alt="image" src="https://github.com/user-attachments/assets/0fd68432-5ce1-45c6-a1c8-608b5bf84f37" />
 
