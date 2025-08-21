@@ -1,7 +1,5 @@
 📊 Global Super Store Power BI Dashboard
 
-<img width="1008" height="475" alt="Snapshot of Dashboard Summary" src="https://github.com/user-attachments/assets/eb4eda53-456f-4d78-ae5e-faaf6643c04a" />
-
 📝 Project Overview
 The **Global Super Store Dashboard** is an end-to-end Power BI reporting project that provides insights into **sales, profit, returns, shipping performance, and customer/product analytics** across different regions and markets.  
 
@@ -51,6 +49,8 @@ The dataset contains information on:
 - **RLS implemented at Market Level** – ensures users only view data for their assigned market.  
 - Protects sensitive sales and order data, enabling secure role-based reporting.  
 ---
+
+
 
 🧮 DAX Calculations
 
@@ -110,6 +110,7 @@ Power BI Desktop – Data modeling & visualization
 Power Query – Data cleaning & transformation
 DAX – KPI calculations & business logic
 RLS – Secure, role-based reporting.
+
 
 <img width="1008" height="475" alt="Snapshot of Dashboard Summary" src="https://github.com/user-attachments/assets/7ee4db10-ddd4-4548-a271-0f580a09eca9" />
 
