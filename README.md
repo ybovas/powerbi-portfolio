@@ -113,3 +113,5 @@ RLS – Secure, role-based reporting.
 Show what the dashboard looks like. - ![Alt text](https://github.com/username/repo/assets/image.png)
 Example: ![Dashboard Preview](https://github.com/ybovas/powerbi-portfolio/blob/e5ffe465a3a09809f95663ac57627fb2560df2de/Snapshot%20of%20Dashboard%20Summary.png)
 
+
+<img width="512" height="512" alt="delivery-van" src="https://github.com/user-attachments/assets/05c60ff2-7297-4368-aa7a-1d2a1486d8d5" />
