@@ -115,6 +115,11 @@ Total Shipping Cost = SUM(Orders[Shipping Cost])
 **RLS** – Secure, role-based reporting.
 
 
-<img width="1019" height="486" alt="image" src="https://github.com/user-attachments/assets/f9885a2a-00a1-478d-8c91-fa54d0109d56" />
+---
 
+✅ Now your README will:  
+- Show **each DAX measure block clearly**.  
+- Display a **screenshot right below** (from `/images` folder).  
+
+<img width="1019" height="486" alt="image" src="https://github.com/user-attachments/assets/0fd68432-5ce1-45c6-a1c8-608b5bf84f37" />
 
