@@ -122,6 +122,7 @@ Global Overview
 
 [https://github.com/ybovas/powerbi-portfolio/blob/main/Snapshot%20of%20Dashboard%20Summary.png]
 
+![Alt Text](images/global_dashboard.png)
 
 
 
