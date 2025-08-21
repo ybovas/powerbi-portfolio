@@ -53,11 +53,6 @@ The dataset contains information on:
 🧮 DAX Calculations
 
 📅 Calendar Table  
-
----
-
-### ✅ How it will look on GitHub:
-
 <pre>
 Calendar =
 ADDCOLUMNS(
@@ -68,37 +63,39 @@ ADDCOLUMNS(
     "MonthSort", FORMAT([Date], "MMM"),
     "Day", DAY([Date])
 )
+
+-- Calculated Columns & Measures --
+
+Shipping Days = DATEDIFF(Orders[Order Date], Orders[Ship Date], DAY)
+
+Avg Delivery Days = AVERAGE(Orders[Shipping Days])
+
+Total Returns = COUNT(Returns[Order ID])
+
+Return Rate = DIVIDE([Total Returns], COUNT(Orders[Order ID]), 0)
+
+Total Sale = SUM(Orders[Sales])
+
+Total Profit = SUM(Orders[Profit])
+
+Total Shipped =
+CALCULATE(
+    COUNT(Orders[Ship Date]),
+    USERELATIONSHIP(Orders[Ship Date], 'Calendar'[Date])
+)
+
+Total Order = COUNT(Orders[Order Date])
+
+Shipped Variance% = DIVIDE([Total Order]-[Total Shipped],[Total Order],0)
+
+Total Quantity = SUM(Orders[Quantity])
+
+Total Discount = SUM(Orders[Discount])
+
+Total Shipping Cost = SUM(Orders[Shipping Cost])
 </pre>
 
 ---
-
-📊 Calculated Columns & Measures
-**Delivery Performance**
-Shipping Days = DATEDIFF(Orders[Order Date], Orders[Ship Date], DAY)
-Avg Delivery Days = AVERAGE(Orders[Shipping Days])
-
-**Returns & Return Rate**
-Total Returns = COUNT(Returns[Order ID])
-Return Rate = DIVIDE([Total Returns], COUNT(Orders[Order ID]), 0)
-
-**Sales & Profit**
-Total Sale = SUM(Orders[Sales])
-Total Profit = SUM(Orders[Profit])
-
-**Shipment Analysis**
--Total Shipped =
--CALCULATE(
--COUNT(Orders[Ship Date]),
--USERELATIONSHIP(Orders[Ship Date], 'Calendar'[Date])
--)
-
-Total Order = COUNT(Orders[Order Date])
-Shipped Variance % = DIVIDE([Total Order] - [Total Shipped], [Total Order], 0)
-
-**Quantity, Discount & Shipping Cost**
-Total Quantity = SUM(Orders[Quantity])
-Total Discount = SUM(Orders[Discount])
-Total Shipping Cost = SUM(Orders[Shipping Cost])
 
 📊 Key Insights
 
@@ -116,12 +113,6 @@ Total Shipping Cost = SUM(Orders[Shipping Cost])
 **DAX** – KPI calculations & business logic
 **RLS** – Secure, role-based reporting.
 
-
----
-
-✅ Now your README will:  
-- Show **each DAX measure block clearly**.  
-- Display a **screenshot right below** (from `/images` folder).  
-
+##Dashboard
 <img width="1019" height="486" alt="image" src="https://github.com/user-attachments/assets/0fd68432-5ce1-45c6-a1c8-608b5bf84f37" />
 
