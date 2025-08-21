@@ -58,7 +58,7 @@ The dataset contains information on:
 
 ### ✅ How it will look on GitHub:
 
-```DAX
+<pre>
 Calendar =
 ADDCOLUMNS(
     CALENDAR(MIN(Orders[Order Date]), MAX(Orders[Order Date])),
@@ -68,6 +68,8 @@ ADDCOLUMNS(
     "MonthSort", FORMAT([Date], "MMM"),
     "Day", DAY([Date])
 )
+</pre>
+
 ---
 
 📊 Calculated Columns & Measures
