@@ -95,10 +95,10 @@ Total Shipping Cost = SUM(Orders[Shipping Cost])
 
 🛠️ Tools & Technologies
 
-**Power BI Desktop** – Data modeling & visualization
-**Power Query** – Data cleaning & transformation
-**DAX** – KPI calculations & business logic
-**RLS** – Secure, role-based reporting.
+- **Power BI Desktop** – Data modeling & visualization
+- **Power Query** – Data cleaning & transformation
+- **DAX** – KPI calculations & business logic
+- **RLS** – Secure, role-based reporting.
 
 ## Dashboard Preview ##
 - <a href="https://github.com/ybovas/powerbi-portfolio/blob/main/GSS%20Dashboard.pbit">Dashboard.pbit</a>
