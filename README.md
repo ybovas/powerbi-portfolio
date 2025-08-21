@@ -8,7 +8,7 @@ This project demonstrates **Power Query transformation,data modeling, DAX calcul
 📂 Data Source  
 This project uses the **Global Superstore dataset**, available publicly on **Kaggle**:  
 
-🔗 <(https://www.kaggle.com/datasets/tahir1413/global-superstore-2016)  
+🔗 - <a href="https://www.kaggle.com/datasets/tahir1413/global-superstore-2016">Dataset</a>
 
 The dataset contains information on:  
 - Orders (Order ID, Order Date, Ship Date, Customer, Region, Market)  
