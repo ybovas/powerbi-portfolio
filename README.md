@@ -102,7 +102,7 @@ Total Shipping Cost = SUM(Orders[Shipping Cost])
 **RLS** – Secure, role-based reporting.
 
 ## Dashboard Preview ##
-- <a href="https://github.com/user-attachments/assets/0fd68432-5ce1-45c6-a1c8-608b5bf84f37"](https://github.com/ybovas/powerbi-portfolio/blob/main/GSS%20Dashboard.pbit">Dashboard</a>
+- <a href="https://github.com/ybovas/powerbi-portfolio/blob/main/GSS%20Dashboard.pbit">Dashboard.pbit</a>
   
 <img width="1019" height="486" alt="image" src="https://github.com/user-attachments/assets/0fd68432-5ce1-45c6-a1c8-608b5bf84f37" />
 
