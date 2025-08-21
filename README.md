@@ -4,7 +4,7 @@
 The **Global Super Store Dashboard** is an end-to-end Power BI reporting project that provides insights into **sales, profit, returns, shipping performance, and customer/product analytics** across different regions and markets.  
 
 This project demonstrates **Power Query transformation,data modeling, DAX calculations and interactive visualization**.
----
+
 📂 Data Source  
 This project uses the **Global Superstore dataset**, available publicly on **Kaggle**:  
 
@@ -53,15 +53,15 @@ The dataset contains information on:
 🧮 DAX Calculations
 
 📅 Calendar Table  
-#DAX
+**DAX**
 Calendar =
 ADDCOLUMNS(
-    CALENDAR(MIN(Orders[Order Date]), MAX(Orders[Order Date])),
-    "Year", YEAR([Date]),
-    "Month", MONTH([Date]),
-    "YearMonth", FORMAT([Date], "YYYY-MMM"),
-    "MonthSort", FORMAT([Date], "MMM"),
-    "Day", DAY([Date])
+CALENDAR(MIN(Orders[Order Date]), MAX(Orders[Order Date])),
+"Year", YEAR([Date]),
+"Month", MONTH([Date]),
+"YearMonth", FORMAT([Date], "YYYY-MMM"),
+"MonthSort", FORMAT([Date], "MMM"),
+"Day", DAY([Date])
 )
 
 📊 Calculated Columns & Measures
@@ -80,8 +80,8 @@ Total Profit = SUM(Orders[Profit])
 **Shipment Analysis**
 Total Shipped =
 CALCULATE(
-    COUNT(Orders[Ship Date]),
-    USERELATIONSHIP(Orders[Ship Date], 'Calendar'[Date])
+COUNT(Orders[Ship Date]),
+USERELATIONSHIP(Orders[Ship Date], 'Calendar'[Date])
 )
 
 Total Order = COUNT(Orders[Order Date])
@@ -104,11 +104,12 @@ Shipments closely match orders (<1% variance)
 
 🛠️ Tools & Technologies
 
-Power BI Desktop – Data modeling & visualization
-Power Query – Data cleaning & transformation
-DAX – KPI calculations & business logic
-RLS – Secure, role-based reporting.
+**Power BI Desktop** – Data modeling & visualization
+**Power Query** – Data cleaning & transformation
+**DAX** – KPI calculations & business logic
+**RLS** – Secure, role-based reporting.
 
 
-<img width="1008" height="475" alt="Snapshot of Dashboard Summary" src="https://github.com/user-attachments/assets/7ee4db10-ddd4-4548-a271-0f580a09eca9" />
+<img width="1019" height="486" alt="image" src="https://github.com/user-attachments/assets/f9885a2a-00a1-478d-8c91-fa54d0109d56" />
+
 
